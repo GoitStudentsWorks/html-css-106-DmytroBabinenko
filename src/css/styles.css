@@ -45,3 +45,35 @@
 
 body {
   font-family: "Inter Tight", sans-serif;}
+
+
+
+.container{
+  width: 280px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+
+@media screen and (min-width:375px) {
+  .container{
+    width: 335px;
+  }
+
+}
+
+@media  screen and (min-width:768px) {
+  .container{
+    width: 704px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media  screen and (min-width:1280px) {
+  .container {
+      width: 1080px;
+      padding-left: 100px;
+    padding-right: 100px;}
+}
