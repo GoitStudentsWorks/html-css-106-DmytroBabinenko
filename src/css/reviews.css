@@ -1,5 +1,8 @@
 .reviews {
     background-color: azure;
+    padding-bottom: 80px;
+    padding-top: 80px;
+
     
 }
 
@@ -7,7 +10,22 @@
 
     margin: 0 auto;
     min-width: 320px;
+   
 
+}
+
+.title_rev {
+font-family: var(--font-family);
+font-weight: 600;
+font-size: 48px;
+line-height: 104%;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: var(--text);
+}
+
+.rev_span {
+    color: #576F35;
 }
 
 @media only screen and (min-width: 375px) { 
