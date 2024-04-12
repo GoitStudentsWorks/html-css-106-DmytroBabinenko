@@ -28,9 +28,45 @@ color: var(--text);
     color: #576F35;
 }
 
+.title_text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    color: var(--text);
+}
+
+.rev_name {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #040306;
+}
+
+.rev_comment {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+    color: rgba(4, 3, 6, 0.4);
+}
+
+
+
+
+.rev_point {
+    border: 1px solid rgba(122, 49, 69, 0.3);
+    border-radius: 24px;
+    padding: 20px 16px;
+    
+}
+
+
 @media only screen and (min-width: 375px) { 
 
-    .container .reviews {
-        margin: 0;
-    }
+    
 }
