@@ -17,11 +17,12 @@
 .title_rev {
 font-family: var(--font-family);
 font-weight: 600;
-font-size: 48px;
+font-size: 40px;
 line-height: 104%;
 letter-spacing: -0.01em;
 text-transform: uppercase;
 color: var(--text);
+margin-bottom: 20px;
 }
 
 .rev_span {
@@ -34,6 +35,7 @@ color: var(--text);
     font-size: 14px;
     line-height: 129%;
     color: var(--text);
+    margin-bottom: 40px ;
 }
 
 .rev_name {
@@ -44,6 +46,7 @@ color: var(--text);
     letter-spacing: -0.02em;
     text-align: center;
     color: #040306;
+    margin-bottom: 8px;
 }
 
 .rev_comment {
@@ -61,6 +64,12 @@ color: var(--text);
     width: 50%;
 }
 
+.img_rev {
+    display: block;
+    margin: auto auto 24px;
+    
+}
+
 
 .rev_point {
    
@@ -72,8 +81,40 @@ color: var(--text);
     
 }
 
+.rev_list li:not(:first-child) {
+    display: none;
+}
 
 @media only screen and (min-width: 375px) { 
+    .title_rev {
+        font-size: 48px;
+    }
+    
+}
 
+@media only screen and (min-width: 768px) {
+    
+
+
+
+    
+    
+    .rev_list li:not(:first-child) {
+        display: block;
+        
+        
+    }
+    
+    
+    
+    
+        .rev_list li:nth-child(n+3) {
+            display: none;
+        }
+
+        .rev_list {
+            display: flex;
+            gap: 18px;
+        }
     
 }
