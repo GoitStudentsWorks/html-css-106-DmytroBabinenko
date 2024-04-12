@@ -15,19 +15,11 @@
 @import url('./footer.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  --text: #141414;
+    --background: #576f35;
+    --background-2: #7a3145;
+    
+    --font-family: "Inter Tight", sans-serif;
 }
 
 .visually-hidden {
@@ -44,4 +36,41 @@
 }
 
 body {
-  font-family: "Inter Tight", sans-serif;}
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.29;
+    font-family: var(--font-family);
+    color: var(--main-text);
+  }
+
+
+
+.container{
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+@media screen and (min-width:375px) {
+  .container{
+    max-width:375px;
+  }
+
+}
+
+@media  screen and (min-width:768px) {
+  .container{
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media  screen and (min-width:1280px) {
+  .container {
+      max-width: 1280px;
+      padding-left: 100px;
+      padding-right: 100px;
+  }
+}
