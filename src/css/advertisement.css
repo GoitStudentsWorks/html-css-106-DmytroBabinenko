@@ -1,3 +1,32 @@
 .advertisement {
-    background-color: aqua;
+  background-color: aqua;
+}
+
+.advertisement-text {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.04167;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #141414;
+}
+
+.white {
+  color: #fbfbfb;
+}
+
+.advertisement-text-wrapper {
+  width: 355px;
+  height: 309px;
+}
+
+.advertisement-wrapper {
+  background: #fbfbfb;
+}
+
+.advertisement-text-wrapper {
+  background: #576f35;
+  border-radius: 12px;
+  width: 355px;
+  height: 102px;
 }
