@@ -96,7 +96,7 @@ margin-bottom: 20px;
     
 
     .title_rev {
-        max-width: 553px;
+         max-width: 553px; 
         font-weight: 600;
         font-size: 64px;
         line-height: 100%;
@@ -104,6 +104,7 @@ margin-bottom: 20px;
         text-transform: uppercase;
         color: #141414;
         margin-bottom: 25px;
+        
         
     }
 
