@@ -1,5 +1,146 @@
+/* .container {
+  width: 280px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+} */
+
 .header {
-  background-color: blue;
+  display: flex;
+justify-content: center;
+  padding-top: 20px;
+  background-color: #576F35;
+  padding-bottom: 48px;
+  width: 100%;
 }
 
+.header-menu {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  margin: 0;
+
+
+}
+
+.header-icon-logo {
+  margin-right: 4px;
+  padding: 0;
+  fill: #fbfbfb;
+
+}
+
+.header-text-logo {
+  fill: #fbfbfb;
+}
+
+.text-logo {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.header-modal-btn {
+  display: block;
+  margin-left: auto;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  fill: #fbfbfb;
+  
+}
+
+.header-modal-icon {}
+
+.header-item{}
+
+.header-nav {
+  display: none;
+}
+
+@media screen and (min-width:375px) {
+  /* .container {
+    width: 335px;
+  } */
+
+
+}
+
+@media screen and (min-width:768px) {
+  .header-icon-logo{
+    width: 18px;
+    height: 18px;
+  }
+
+  .header-text-logo{
+    width: 168px;
+    height: 15px;
+  }
+  /* .container {
+    width: 704px;
+    padding-left: 32px;
+    padding-right: 32px;
+  } */
+
+  .header {
+    padding-top: 32px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .header{
+    /* background-color: transparent; */
+  }
+  .header-modal-btn{
+    display: none;
+  }
+.header-nav {
+  display: flex;
+  align-items: center;
+ margin-left: 387px;
+}
+
+  .header-item {
+    display: flex;
+     
+      gap: 8px;
+      padding-right: 20px;
+  }
+.header-list{
+  border: 1px solid rgba(251, 251, 251, 0.4);
+    border-radius: 12px;
+    padding: 12px;
+    background-color: transparent;
+}
+  .header-menu-link {
+    font-family:"Inter Tight",
+      sans-serif;;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      text-align: center;
+      color: #fbfbfb;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+  }
+  .header-button{
+    
+    border-radius: 30px;
+      padding: 16px 32px;
+      background-color: #7a3145;
+      border: none;
+      font-family: "Inter Tight",
+        sans-serif;;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.11;
+        letter-spacing: -0.01em;
+        text-transform: uppercase;
+        color: #fbfbfb;
+        text-align: center;
+        font-style: normal;
+  }
+}
 
