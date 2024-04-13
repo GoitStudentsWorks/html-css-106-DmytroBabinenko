@@ -1,5 +1,5 @@
 .reviews {
-    background-color: azure;
+    /* background-color: azure; */
     padding-bottom: 80px;
     padding-top: 80px;
 
@@ -104,6 +104,7 @@ margin-bottom: 20px;
         text-transform: uppercase;
         color: #141414;
         margin-bottom: 25px;
+        
     }
 
     .revttl {
@@ -136,5 +137,38 @@ margin-bottom: 20px;
             display: flex;
             gap: 18px;
         }
+
+        .rev_name {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 110%;
+            letter-spacing: -0.02em;
+            text-align: center; 
+        }
+
+        .rev_comment {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 140%;
+            text-align: center;
+        }
     
+}
+
+
+@media only screen and (min-width: 1280px) {
+
+    .rev_list li:nth-child(n+3) {
+        display: block;
+    }
+
+
+
+    .rev_list {
+        
+        gap: 25px;
+    }
+
+
+
 }
