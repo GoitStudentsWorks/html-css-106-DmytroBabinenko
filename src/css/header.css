@@ -1,3 +1,4 @@
+
 .header {
   display: flex;
 justify-content: center;
@@ -102,7 +103,7 @@ justify-content: center;
 }
 
 .header-list-modal:hover,
-.header-list-modal:active{
+.header-list-modal:active {
   background-color: #fbfbfb;
 }
 
@@ -161,18 +162,14 @@ justify-content: center;
    visibility: visible;
    pointer-events: auto;
  }
-@media screen and (min-width:375px) {
  
 
-}
-
 @media screen and (min-width:768px) {
-  .header-icon-logo{
+  .header-icon-logo {
     width: 18px;
     height: 18px;
     padding-right: 8px;
   }
-}
 
   .header-text-logo{
     width: 168px;
@@ -183,10 +180,12 @@ justify-content: center;
   .header {
     padding-top: 32px;
   }
+  
   .header-modal-icon{
     width: 40px;
     height: 40px;
   }
+  
   .icon-close-mob{
     width: 40px;
       height: 40px;
@@ -203,14 +202,18 @@ justify-content: center;
         pointer-events: none;
         visibility: hidden;
   }
+  
  .is-open {
    opacity: 1;
    visibility: visible;
    pointer-events: auto;
  }
-  .header-modal{
+  
+  .header-modal
+  {
     max-width: 351px;
-    right: 0;}
+    right: 0;
+  }
   
   
 .icon-close-mob{
@@ -230,14 +233,18 @@ justify-content: center;
 }
   }
 
+
 @media screen and (min-width:1280px) {
-  .header{
+  .header {
     background-color: transparent;
   }
+}
+
   .header-modal-btn{
     display: none;
   }
-     .header-navigation {
+    
+.header-navigation {
           display: flex;
             flex-direction: row;
             gap: 20px;
@@ -262,6 +269,7 @@ justify-content: center;
       gap: 8px;
       padding-right: 20px;
   }
+
 .header-list{
   border: 1px solid rgba(251, 251, 251, 0.4);
     border-radius: 12px;
@@ -281,7 +289,9 @@ justify-content: center;
       display: block;
       margin: 0 auto;
   }
-  .header-button{
+  
+.header-button{
+    
     
     border-radius: 30px;
       padding: 16px 32px;
@@ -298,6 +308,7 @@ justify-content: center;
         text-align: center;
         font-style: normal;
   }
+  
   .header-button:hover, .header-button:active{
     background: #622133;
   }
@@ -305,7 +316,7 @@ justify-content: center;
   .header-main-modal{
     display: none;
   }
+  
   .header-modal{
     display: none;
   }
-}
