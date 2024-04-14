@@ -92,12 +92,10 @@
   .hero-title {
     font-size: 76px;
     letter-spacing: -0.01em;
-    padding-left: 80px;
     margin-bottom: 128px;
     transform: none;
   }
   .hero-title-text {
-    padding-left: 90px;
     padding-right: 114px;
   }
 }
