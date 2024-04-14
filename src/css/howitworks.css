@@ -1,4 +1,5 @@
 
+
 .how-it-works {
     display: flex;
     align-items: flex-start;
@@ -8,6 +9,7 @@
     margin: 0 auto;
     padding: 0 auto;
 }
+
 
 .how-it-works-container {
     display: flex;
