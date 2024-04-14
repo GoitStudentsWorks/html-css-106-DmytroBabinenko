@@ -72,7 +72,7 @@
     margin: 0 auto;
   }
   .hero .container {
-    max-width: 502px;
+    max-width: 630px;
     height: auto;
     padding-right: 28px;
     padding-left: 0;
@@ -86,12 +86,13 @@
   .hero-img-res {
   }
   .hero-title {
+    max-width: 502px;
     font-size: 76px;
     letter-spacing: -0.01em;
     margin-bottom: 128px;
     transform: none;
   }
   .hero-title-text {
-    padding-right: 114px;
+    padding-right: 0px;
   }
 }
