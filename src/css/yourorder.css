@@ -19,9 +19,9 @@
 }
 
 .order-text {
-    font-weight: 500;
+    /* font-weight: 500; */
     font-size: 14px;
-    line-height: 1.29;
+    /* line-height: 1.29; */
     color: #fbfbfb;
     margin-bottom: 40px;
 }
@@ -148,9 +148,9 @@
     transition: backround-color 250ms cubic-bezier(.69, .84, .73, .22), box-shadow 250ms cubic-bezier(.69, .84, .73, .22);
 }
 
-.order-form-btn:focus{
-    background-color: #344f33;
-    box-shadow:  4px 4px 0 rgba(49, 69, 50, 0.25);
+.order-form-btn:hover, .order-form-btn:focus{
+    background-color: #444f32;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
 .order-socialmedia {
@@ -186,10 +186,17 @@
     line-height: 1.08;
     letter-spacing: -0.01em;
     color: #fbfbfb;
+    transition: text-shadow 250ms cubic-bezier(.69, .84, .73, .22),
+        font-size 250ms cubic-bezier(.69, .84, .73, .22);
 }
 
 .socialmedia-link span {
     margin-left: 8px;
+}
+
+.socialmedia-link:hover, .socialmedia-link:focus{
+    text-shadow: -5px 9px 9px rgba(0, 0, 0, .87);
+    font-size: 28px;
 }
 
 @media screen and (min-width: 375px){}
@@ -252,6 +259,8 @@
     .order-form-btn {
         padding: 16px 191px;
         height: 52px;
+        font-size: 18px;
+        line-height: 1.11;
     }
     
     .order-socialmedia {
@@ -284,6 +293,11 @@
     .socialmedia-link span{
         margin-left: 12px;
     }
+
+    .socialmedia-link:hover,
+    .socialmedia-link:focus {
+            font-size: 36px;
+        }
 }    
 
 @media screen and (min-width: 1280px){
