@@ -14,9 +14,17 @@ address {
 }
 .footer-wrap-logo {
 }
-.dibb {
+.footer-wrap-big {
   display: flex;
   flex-wrap: wrap;
+}
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 4px;
+  margin-bottom: 14px;
 }
 .footer-logo {
   color: #f4f4fd;
@@ -80,6 +88,8 @@ address {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+  .footer {
     padding: 32px;
   }
   .footer-wrap-tablet {
@@ -96,7 +106,7 @@ address {
   .footer-span {
     max-width: 215px;
   }
-  .dibb {
+  .footer-wrap-big {
     display: flex;
     justify-content: space-between;
   }
@@ -104,7 +114,7 @@ address {
     justify-content: space-between;
   }
   .footer-text-logo {
-    max-width: 255px;
+    max-width: 265px;
     font-size: 16px;
     line-height: 1.25;
   }
@@ -113,6 +123,8 @@ address {
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
+  }
+  .footer {
     padding: 50px 7.8%;
   }
   .footer-link-text {
