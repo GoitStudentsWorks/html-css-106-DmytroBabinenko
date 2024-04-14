@@ -7,7 +7,7 @@ address {
   font-style: normal;
 }
 
-.footer {
+.content {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: #7a3145;
@@ -99,7 +99,7 @@ address {
   .container {
     max-width: 768px;
   }
-  .footer {
+  .content {
     padding: 32px;
   }
   .footer-icon {
@@ -142,7 +142,7 @@ address {
   .container {
     max-width: 1280px;
   }
-  .footer {
+  .content {
     padding: 50px 100px;
   }
   .footer-link-text {
