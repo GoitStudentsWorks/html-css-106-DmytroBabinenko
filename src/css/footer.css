@@ -39,7 +39,9 @@ address {
   margin-bottom: 40px;
 }
 .footer-wrap-text {
-  max-width: 175px;
+  display: grid;
+  gap: 14px;
+  /* max-width: 175px; */
   margin-bottom: 40px;
 }
 .footer-link-text {
@@ -52,9 +54,12 @@ address {
 }
 .footer-list {
   margin-bottom: 80px;
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   gap: 14px;
+}
+.footer-span {
+  max-width: 179px;
 }
 .footer-list-item {
   font-weight: 600;
@@ -69,7 +74,9 @@ address {
 }
 .footer-wrap-list {
   display: flex;
-  gap: 49px;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-direction: row;
 }
 .footer-wrap-item {
   font-weight: 500;
@@ -78,7 +85,10 @@ address {
   letter-spacing: -0.01em;
   color: rgba(251, 251, 251, 0.5);
 }
-
+.footer-span-policy {
+  margin-left: 8px;
+  margin-right: 8px;
+}
 @media screen and (min-width: 375px) {
   .container {
     max-width: 375px;
@@ -92,6 +102,10 @@ address {
   .footer {
     padding: 32px;
   }
+  .footer-icon {
+    margin-bottom: 25px;
+  }
+
   .footer-wrap-tablet {
     margin-right: 0;
   }
@@ -102,6 +116,10 @@ address {
   .footer-list-item {
     font-size: 18px;
     line-height: 1.11;
+  }
+  .footer-wrap-text {
+    gap: 25px;
+    margin-bottom: 64px;
   }
   .footer-span {
     max-width: 215px;
@@ -125,10 +143,10 @@ address {
     max-width: 1280px;
   }
   .footer {
-    padding: 50px 7.8%;
+    padding: 50px 100px;
   }
   .footer-link-text {
-    font-size: 18px;
+    font-size: 32px;
   }
   .footer-wrap-tablet {
     display: flex;
@@ -136,5 +154,12 @@ address {
   }
   .footer-span {
     max-width: 215px;
+  }
+  .footer-wrap-text {
+    gap: 25px;
+    margin-bottom: 0;
+  }
+  .footer-bottom-wrap {
+    margin-top: 125px;
   }
 }
