@@ -38,6 +38,29 @@
   background: #fbfbfb;
   margin-left: auto;
   margin-right: auto;
-} 
+}
 
+@media screen and (min-width: 768px) {
+  .advertisement-container {
+    width: 736px;
+    height: 288px;
+  }
 
+  .advertisement-text {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 1.09375;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #141414;
+  }
+
+  .white {
+    color: #fbfbfb;
+  }
+  .advertisement-text-wrapper {
+    width: 736px;
+    height: 288px;
+  }
+}
