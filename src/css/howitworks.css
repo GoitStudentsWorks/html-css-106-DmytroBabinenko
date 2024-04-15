@@ -67,7 +67,21 @@
     }
 }
 
-.hiw-order-container {}
+.hiw-order-container {
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .hiw-order-container {
+        width: 450px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .hiw-order-container {
+        width: 450px;
+    }
+}
 
 .hiw-title {
     font-weight: 600;
