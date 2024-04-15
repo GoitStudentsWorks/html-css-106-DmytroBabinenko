@@ -1,5 +1,6 @@
 .advertisement {
   background-color: #fbfbfb;
+  padding: 80px 0;
 }
 
 .advertisement-text {
@@ -8,36 +9,70 @@
   line-height: 1.04167;
   letter-spacing: -0.01em;
   text-transform: uppercase;
-  color: #141414;
 }
 
-.white {
+.advertisement-text-accent {
+  position: relative;
+  display: block;
   color: #fbfbfb;
+  z-index: 1;
 }
 
-.advertisement-text-wrapper {
-  width: 355px;
-  height: 309px;
-}
-
-.advertisement-wrapper {
-  background: #fbfbfb;
-}
-
-.advertisement-text-wrapper {
-  background: #576f35;
+.advertisement-text-accent::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -10px;
+  z-index: -1;
+  width: calc(100% + 20px);
+  height: 100%;
   border-radius: 12px;
-  width: 355px;
-  height: 102px;
+  background-color: var(--background);
 }
 
-.advertisement-container {
-  padding: 80px 10px;
-  width: 375px;
-  height: 469px;
-  background: #fbfbfb;
-  margin-left: auto;
-  margin-right: auto;
-} 
+.advertisement-text-normal {
+  display: inline-block;
+  color: var(--text);
+}
 
+@media screen and (min-width: 768px) {
+  .advertisement {
+    padding: 100px 0;
+  }
 
+  .advertisement-text {
+    font-size: 64px;
+    line-height: 1.09375;
+  }
+
+  .advertisement-text-accent::before {
+    left: -16px;
+    width: calc(100% + 32px);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .advertisement {
+    padding: 100px 0;
+  }
+
+  .advertisement-text-accent {
+    display: inline;
+  }
+
+  .advertisement-text-normal {
+    display: inline;
+    padding-left: 18px;
+  }
+
+  .advertisement-text-accent::before {
+    left: -14px;
+    width: calc(100% + 28px);
+  }
+
+  .advertisement-text {
+    font-size: 76px;
+    line-height: 1.05263;
+    padding: 0 14px;
+  }
+}

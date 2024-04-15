@@ -75,6 +75,7 @@
     max-width: 630px;
     height: auto;
     padding-right: 28px;
+    padding-left: 100px;
 
     margin: 0;
     flex-shrink: 0;
@@ -85,14 +86,13 @@
   .hero-img-res {
   }
   .hero-title {
+    max-width: 502px;
     font-size: 76px;
     letter-spacing: -0.01em;
-    padding-left: 80px;
     margin-bottom: 128px;
     transform: none;
   }
   .hero-title-text {
-    padding-left: 90px;
-    padding-right: 114px;
+    padding-right: 0px;
   }
 }
