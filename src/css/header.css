@@ -237,8 +237,8 @@
         position: fixed;
           z-index: 50;
 
-          padding-top: 0px;
-          padding-bottom: 0px;
+          padding-top: 17px;
+          padding-bottom: 17px;
     
   }
     .header-modal-btn{
