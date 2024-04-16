@@ -230,7 +230,15 @@
   .header-button-modal:active {
     background-color:#fbfbfb;
   }
+
+
+
+  .header-modal::backdrop{
+    background-color: rgba(46, 47, 66, 0.4);
+
+  }
     }
+
 
 
   @media screen and (min-width:1280px) {
