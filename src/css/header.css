@@ -9,6 +9,13 @@
 
   }
 
+  .icon-close-mob{
+    fill: #fbfbfb;
+  }
+  .header-modal-icon {
+    fill: #fbfbfb;
+  }
+
   .header-menu {
     display: flex;
     align-items: center;
