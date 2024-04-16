@@ -306,9 +306,19 @@
 
     .header-main-modal{
       display: none;
+      
     }
 
     .header-modal{
       display: none;
+      position: fixed;
     }
+
+    .header-nav-modal {
+      
+       position: fixed;
+      
+       }
+
+
   }
