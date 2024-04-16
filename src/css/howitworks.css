@@ -34,7 +34,7 @@
 
 .hiw-image {
     border-radius: 30px;
-    box-shadow: rgba(20, 20, 20, 0.3);
+    
     position: relative;
 }
 
@@ -175,9 +175,6 @@
     .hiw-list-items {
         width: 450px;
     }
-}
-.hiw-list-items:last-child {
-    margin-bottom: 0;
 }
 
 .hiw-list>.hiw-list-items::before {
