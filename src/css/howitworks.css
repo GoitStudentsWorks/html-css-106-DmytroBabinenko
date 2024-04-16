@@ -171,6 +171,9 @@
         width: 450px;
     }
 }
+.hiw-list-items:last-child {
+    margin-bottom: 0;
+}
 
 .hiw-list>.hiw-list-items::before {
     position: absolute;
