@@ -171,7 +171,8 @@
     .header-icon-logo{
       width: 18px;
       height: 18px;
-      padding-right: 8px;
+      margin-right: 8px;
+
     }
 
     .header-text-logo{
