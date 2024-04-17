@@ -493,20 +493,18 @@
   }
 
   .header-nav-modal {
-
     position: fixed;
-
-
-
         gap: 8px;
         padding-right: 20px;
     }
+    
   .header-list{
     border: 1px solid rgba(251, 251, 251, 0.4);
       border-radius: 12px;
       padding: 12px;
       background-color: transparent;
   }
+    
     .header-menu-link {
       font-family:"Inter Tight",
         sans-serif;;
@@ -520,6 +518,7 @@
         display: block;
         margin: 0 auto;
     }
+    
     .header-button{
 
       border-radius: 30px;
@@ -537,6 +536,7 @@
           text-align: center;
           font-style: normal;
     }
+    
     .header-button:hover, .header-button:active{
       background: #622133;
     }
@@ -558,7 +558,7 @@
        }
 
 
-  }
+  
   
 
 
