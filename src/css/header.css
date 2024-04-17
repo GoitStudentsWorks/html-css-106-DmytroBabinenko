@@ -458,12 +458,11 @@
 
 
   @media screen and (min-width:1280px) {
-    .header{
+    .header {
         position: absolute;
         top: 32px;
         left: 0;
           z-index: 1;
-
           padding-top: 17px;
           padding-bottom: 17px;
     background-color: transparent;
@@ -472,6 +471,7 @@
     .header-modal-btn{
       display: none;
     }
+    
        .header-navigation {
             display: flex;
               flex-direction: row;
@@ -557,7 +557,7 @@
       
        }
 
-
+  }
   
   
 
