@@ -242,27 +242,7 @@
 .scroll-to{
 
 }
-  .header-modal {
-
-    max-width: 351px;
-    right: 0;
-  
-      position: absolute;
-        top: 0;
-        background-color: #7a3145;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;   
-        padding-bottom: 40px;
-        opacity: 0;
-        pointer-events: none;
-        visibility: hidden;
-        z-index: 999;
-}
+ 
 
 
   .icon-close-mob {
