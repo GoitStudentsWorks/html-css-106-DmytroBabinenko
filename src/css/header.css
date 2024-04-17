@@ -222,7 +222,9 @@
     visibility: visible;
     pointer-events: auto;
   }
+.scroll-to{
 
+}
   .header-modal {
     max-width: 351px;
     right: 0;
