@@ -74,6 +74,7 @@
 }
 
 .header-modal {
+  display: flex;
   position: absolute;
   top: 0;
   background-color: #7a3145;
@@ -84,21 +85,14 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding-bottom: 40px;
+   padding-bottom: 48px;
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
   z-index: 999;
-
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    background-color: #576F35;
-    padding-bottom: 48px;
+  padding-top: 20px;
     width: 100%;
-    top: 0;
-
-
+  top: 0;
 
 }
   .icon-close-mob{
